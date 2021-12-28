@@ -1,11 +1,11 @@
 #include "pch.h"
-#include "../testErrors/planes/fighter.cpp"
-#include "../testErrors/info/Table/Table.cpp"
-#include "../testErrors/info/Link/Link.cpp"
-#include "../testErrors/Game/Math/Math.cpp"
-#include"../testErrors/UI/UI.cpp"
-#include "../testErrors/Game/GameAux/GameAux.hpp"
-#include "../testErrors/info/Mission.cpp"
+#include "../AirBattleGame/planes/fighter.cpp"
+#include "../AirBattleGame/info/Table/Table.cpp"
+#include "../AirBattleGame/info/Link/Link.cpp"
+#include "../AirBattleGame/Game/Math/Math.cpp"
+#include"../AirBattleGame/UI/UI.cpp"
+#include "../AirBattleGame/Game/GameAux/GameAux.hpp"
+#include "../AirBattleGame/info/Mission.cpp"
 
 TEST(fighter, settingAngleTest) {
 	std::weak_ptr<updater> a;
@@ -51,7 +51,7 @@ TEST(fighter, ShootTest) {
 	std::shared_ptr<fighter> f2 = std::make_shared<fighter>(update, 2, 0, 0, 0, 4);
 	link1->insert(std::make_pair(std::string("plane1"), f1));
 	link2->insert(std::make_pair(std::string("plane2"), f2));
-	/*Смоделировать ситуацию атаки*/
+	/*Г‘Г¬Г®Г¤ГҐГ«ГЁГ°Г®ГўГ ГІГј Г±ГЁГІГіГ Г¶ГЁГѕ Г ГІГ ГЄГЁ*/
 }
 
 TEST(fighter, isLessZeroHp)
