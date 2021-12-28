@@ -1,0 +1,124 @@
+{
+  "User": {
+    "Num": 2,
+    "Link1": {
+      "CallSign": "Team1",
+      "Num": 4,
+      "plane1": {
+        "Call": "Beast",
+        "Type": "Masker",
+        "speed": 2,
+        "angle": 0,
+        "pos": {
+          "x": 0,
+          "y": 7
+        },
+        "radius": 10,
+        "changabillityR": 0.5,
+        "decreaseDetectionRate": 0.4
+      },
+      "plane2": {
+        "Call": "Crusher",
+        "Type": "RDetection",
+        "speed": 2,
+        "angle": 180,
+        "pos": {
+          "x": 37,
+          "y": 7
+        },
+        "radius": 3,
+        "ignoreMaskerRate": 0.5
+      },
+      "plane3": {
+        "Call": "Crusher2",
+        "Type": "Scout",
+        "speed": 2,
+        "angle": 180,
+        "pos": {
+          "x": 37,
+          "y": 7
+        },
+        "radius": 3,
+        "ignoreMaskerRate": 0.5,
+        "decreaseDetectionRate": 0.4,
+        "changabillityR": 0.3
+      },
+      "plane4": {
+        "Call": "Helper",
+        "Type": "RElectrinics",
+        "speed": 2,
+        "angle": 180,
+        "pos": {
+          "x": 37,
+          "y": 7
+        },
+        "radius": 3,
+        "supprPro": 0.4,
+        "supprMask": 0.5,
+        "supprRdetect": 0.3
+      }
+    },
+    "Link2": {
+      "CallSign": "Team2",
+      "Num": 1,
+      "plane1": {
+        "Call": "Worker",
+        "Type": "MissileDefence",
+        "speed": 2,
+        "angle": 0,
+        "pos": {
+          "x": 76,
+          "y": 13
+        },
+        "radius": 10,
+        "rocketCount": 15
+      }
+    }
+  },
+  "User2": {
+    "Num": 1,
+    "Link1": {
+      "CallSign": "Team1",
+      "Num": 3,
+      "plane1": {
+        "Call": "Beast2",
+        "Type": "Masker",
+        "speed": 2,
+        "angle": 0,
+        "pos": {
+          "x": 72,
+          "y": 6
+        },
+        "radius": 10,
+        "changabillityR": 0.5,
+        "decreaseDetectionRate": 0.4
+      },
+      "plane2": {
+        "Call": "Crusher",
+        "Type": "RDetection",
+        "speed": 2,
+        "angle": 180,
+        "pos": {
+          "x": 83,
+          "y": 9
+        },
+        "radius": 3,
+        "ignoreMaskerRate": 0.5
+      },
+      "plane3": {
+        "Call": "Crusher2",
+        "Type": "Scout",
+        "speed": 2,
+        "angle": 180,
+        "pos": {
+          "x": 47,
+          "y": 12
+        },
+        "radius": 3,
+        "ignoreMaskerRate": 0.5,
+        "decreaseDetectionRate": 0.4,
+        "changabillityR": 0.3
+      }     
+    }
+  }
+}
